@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-phoenixashindustries.github.io
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -57,10 +55,13 @@ phoenixashindustries.github.io
   </header>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
     <a href="shop.html">Shop</a>
-    <a href="#">Contact</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="cookie-policy.html">Cookie Policy</a>
+    <a href="terms.html">Terms & Conditions</a>
   </nav>
 
   <main>
@@ -71,35 +72,6 @@ phoenixashindustries.github.io
 
   <footer>
     <p>&copy; 2025 Phoenix Industries</p>
-  </footer>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Client Website</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="shop.html">Shop</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="cookie-policy.html">Cookie Policy</a>
-      <a href="terms.html">Terms & Conditions</a>
-    </nav>
-  </header>
-
-  <main>
-    <h1>Welcome to Your New Website</h1>
-    <p>This is a clean, professional starter template for your website.</p>
-  </main>
-
-  <footer>
-    <p>© 2025 Client Name. All rights reserved.</p>
   </footer>
 
   <!-- Cookie Consent Banner -->
@@ -114,17 +86,4 @@ phoenixashindustries.github.io
   <script>
     document.getElementById('acceptCookies').onclick = function() {
       localStorage.setItem('cookieConsent', 'true');
-      document.getElementById('cookieConsent').style.display = 'none';
-    };
-
-    window.onload = function() {
-      if (localStorage.getItem('cookieConsent') === 'true') {
-        document.getElementById('cookieConsent').style.display = 'none';
-      }
-    };
-  </script>
-</body>
-</html>
-
-</body>
-</html>
+      do
