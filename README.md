@@ -59,7 +59,7 @@ phoenixashindustries.github.io
   <nav>
     <a href="#">Home</a>
     <a href="#">About</a>
-    <a href="Shop.html">Shop</a>
+    <a href="Shop.HTML">Shop</a>
     <a href="#">Contact</a>
   </nav>
 
