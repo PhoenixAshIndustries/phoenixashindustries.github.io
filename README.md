@@ -5,7 +5,7 @@ phoenixashindustries.github.io
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Website Title</title>
+  <title>Phoenix Industries</title>
   <style>
     body {
       font-family: sans-serif;
@@ -13,7 +13,7 @@ phoenixashindustries.github.io
       padding: 0;
       line-height: 1.6;
       background: #f4f4f4;
-      color: #333;
+      color: #EB9E10;
     }
 
     header {
@@ -53,13 +53,13 @@ phoenixashindustries.github.io
 <body>
 
   <header>
-    <h1>Welcome to My Site</h1>
+    <h1>Wwelcome to the store!</h1>
   </header>
 
   <nav>
     <a href="#">Home</a>
     <a href="#">About</a>
-    <a href="#">Projects</a>
+    <a href="projects.html">Shop</a>
     <a href="#">Contact</a>
   </nav>
 
@@ -70,7 +70,7 @@ phoenixashindustries.github.io
   </main>
 
   <footer>
-    <p>&copy; 2025 Your Name</p>
+    <p>&copy; 2025 Phoenix Industries</p>
   </footer>
 
 </body>
