@@ -53,13 +53,13 @@ phoenixashindustries.github.io
 <body>
 
   <header>
-    <h1>Wwelcome to the store!</h1>
+    <h1>Welcome to the store!</h1>
   </header>
 
   <nav>
     <a href="#">Home</a>
     <a href="#">About</a>
-    <a href="projects.html">Shop</a>
+    <a href="Shop.html">Shop</a>
     <a href="#">Contact</a>
   </nav>
 
