@@ -90,7 +90,7 @@
 <body>
   <header class="hero">
     <h1>Vanguard Lawn Care LLC</h1>
-    <p>Reliable, Professional, Local</p>
+    <p>Locally Owned and operated! </p>
   </header>
 
   <section>
@@ -100,20 +100,21 @@
       <li>Edging</li>
       <li>Weeding</li>
       <li>Leaf & Debris Blowing</li>
+      <li>Leaf & Debris removal</li>
     </ul>
-    <p>We offer one-time visits or recurring lawn maintenance in Medford, Oregon and surrounding areas.</p>
+    <p>We offer one-time visits or recurring lawn maintenance in Medford, and surrounding areas.</p>
   </section>
 
   <section>
     <h2>Pricing</h2>
     <table>
       <tr><th>Service</th><th>Typical Cost</th></tr>
-      <tr><td>Lawn Mow (¼ acre)</td><td>$40–$55</td></tr>
-      <tr><td>Lawn Mow (½ acre)</td><td>$55–$70</td></tr>
-      <tr><td>Full Maintenance Visit (mow, edge, blow)</td><td>$48–$99 per visit</td></tr>
-      <tr><td>Weekly/Bi-weekly Recurring</td><td>$60–$150/month</td></tr>
+      <tr><td>Lawn Mow, Weed eat (¼ acre)</td><td>$50-$75</td></tr>
+      <tr><td>Lawn Mow, Weed eat (½ acre)</td><td>$75–$99</td></tr>
+      <tr><td>Full Maintenance Visit (Mow, Weed eat, Removal of debris)</td><td>$100-$130 per visit</td></tr>
+      <tr><td>Weekly/Bi-weekly discounts available!</tr>
+      <tr><td>Veteran, Senior, Police, EMS/First Responder discounts available!</td>
     </table>
-    <p style="font-size: 0.9rem;">Based on market averages for Medford, Oregon.</p>
   </section>
 
   <section>
@@ -126,7 +127,7 @@
 
     <div class="cta">
       <h3>New Customer Special</h3>
-      <p>Save $15 off your first full maintenance visit — book before the end of the week!</p>
+      <p>4th of July Sale! Get 15% off Full Service visit for the first two weeks of July!</p>
       <a href="mailto:VanguardLawn@gmail.com">Email Now to Save</a>
     </div>
 
