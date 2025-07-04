@@ -9,7 +9,7 @@
     body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
-      background-color: #f4fef4;
+      background-color: #2e7d32;
       color: #222;
     }
     .hero, .footer {
