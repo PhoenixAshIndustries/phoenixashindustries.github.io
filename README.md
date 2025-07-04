@@ -3,87 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Phoenix Industries</title>
+  <title>Vanguard Lawn Care LLC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-      background: #f4f4f4;
-      color: #EB9E10;
-    }
-
-    header {
-      background: #333;
-      color: #fff;
-      padding: 1rem 0;
-      text-align: center;
-    }
-
-    nav {
-      background: #444;
-      padding: 0.5rem;
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-    }
-
-    main {
-      padding: 2rem;
-    }
-
-    footer {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 1rem 0;
-      position: relative;
-      bottom: 0;
-      width: 100%;
-    }
+    body { font-family: 'Roboto', sans-serif; margin:0; padding:0; background:#f0f9f0; color:#333; }
+    header { background:#1a237e; color:white; padding:2rem 1rem; text-align:center; }
+    header h1 { margin:0; font-size:2.5rem; }
+    section { padding:2rem 1rem; max-width:800px; margin:auto; }
+    .services, .pricing, .contact { background:white; padding:1.5rem; border-radius:10px; margin-top:1rem; box-shadow:0 4px 8px rgba(0,0,0,0.05); }
+    h2 { color:#1a237e; }
+    ul, table { padding-left:1.5rem; width:100%; }
+    table { border-collapse:collapse; }
+    th, td { border:1px solid #ddd; padding:0.5rem; text-align:left; }
+    .cta { background:#3949ab; padding:1rem; margin-top:2rem; text-align:center; border-radius:8px; color:white; }
+    .cta a { background:#1a237e; color:white; padding:0.75rem 1.5rem; text-decoration:none; border-radius:5px; display:inline-block; margin-top:1rem; }
+    footer { text-align:center; padding:1rem; font-size:0.9rem; color:#666; }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Welcome to the store!</h1>
+    <h1>Vanguard Lawn Care LLC</h1>
+    <p><em>"Reliable, Professional, Local"</em></p>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="shop.html">Shop</a>
-    <a href="contact.html">Contact</a>
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="cookie-policy.html">Cookie Policy</a>
-    <a href="terms.html">Terms & Conditions</a>
-  </nav>
+  <section>
+    <div class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Mowing</li>
+        <li>Edging</li>
+        <li>Weeding</li>
+        <li>Leaf & Debris Blowing</li>
+      </ul>
+      <p>One-time visits or recurring maintenance in Medford, OR and surrounding areas.</p>
+    </div>
 
-  <main>
-    <h2>Hello World</h2>
-    <p>This is a simple webpage hosted on GitHub Pages.</p>
-    <p>You can customize this content to fit your needs.</p>
-  </main>
+    <div class="pricing">
+      <h2>Pricing</h2>
+      <table>
+        <tr><th>Service</th><th>Typical Cost</th></tr>
+        <tr><td>Lawn Mow (¼ acre)</td><td>$40–$55</td></tr>
+        <tr><td>Lawn Mow (½ acre)</td><td>$55–$70</td></tr>
+        <tr><td>Full Maintenance Visit (mow, edge, blow)</td><td>$48–$99 per visit</td></tr>
+        <tr><td>Weekly/Bi‑weekly Recurring</td><td>$60–$90/mo for small yards; up to $150/mo for larger</td></tr>
+      </table>
+      <p>Based on local data for Medford, OR :contentReference[oaicite:1]{index=1}.</p>
+    </div>
+
+    <div class="contact">
+      <h2>Contact & Specials</h2>
+      <p><strong>Phone:</strong> (541) 851‑6226 (call or text)</p>
+      <p><strong>Email:</strong> <a href="mailto:VanguardLawn@Gmail.com">VanguardLawn@Gmail.com</a> (preferred)</p>
+      <p><strong>Service Area:</strong> Medford, OR & surrounding areas</p>
+
+      <div class="cta">
+        <h3>New Customer Special!</h3>
+        <p>Save $15 off your first full maintenance visit booked this week.</p>
+        <a href="mailto:VanguardLawn@Gmail.com">Email Now to Save</a>
+      </div>
+
+      <p>Check us out on Facebook: <a href="https://www.facebook.com/profile.php?id=61562805812398" target="_blank">Vanguard Lawn Care LLC</a></p>
+    </div>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Phoenix Industries</p>
+    &copy; 2025 Vanguard Lawn Care LLC. All rights reserved.
   </footer>
-
-  <!-- Cookie Consent Banner -->
-  <div id="cookieConsent" style="position: fixed; bottom: 0; left: 0; right: 0; background: #222; color: white; padding: 15px; text-align: center; font-family: Arial, sans-serif; z-index: 9999;">
-    This website uses cookies to ensure you get the best experience. 
-    See our <a href="cookie-policy.html" style="color: #4CAF50; text-decoration: underline;">Cookie Policy</a>.
-    <button id="acceptCookies" style="margin-left: 15px; padding: 5px 10px; background: #4CAF50; border: none; color: white; cursor: pointer; font-weight: bold;">
-      Accept
-    </button>
-  </div>
-
-  <script>
-    document.getElementById('acceptCookies').onclick = function() {
-      localStorage.setItem('cookieConsent', 'true');
-      do
+</body>
+</html>
