@@ -1,4 +1,4 @@
-<!DOCTYPE html
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -9,14 +9,14 @@
     body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
-      background-color: #2e7d32;
+      background-color: #f4fef4;
       color: #222;
     }
     .hero, .footer {
       background-image: url('https://images.unsplash.com/photo-1585241661302-7b3d8962c889?auto=format&fit=crop&w=1920&q=80');
       background-size: cover;
       background-position: center;
-      color: #2e7d32;
+      color: white;
       padding: 2.5rem 1rem;
       text-align: center;
     }
@@ -80,6 +80,21 @@
       font-size: 0.9rem;
       padding: 1rem;
     }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #2e7d32;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
     @media (max-width: 600px) {
       .hero h1 {
         font-size: 2rem;
@@ -90,7 +105,7 @@
 <body>
   <header class="hero">
     <h1>Vanguard Lawn Care LLC</h1>
-    <p>Locally Owned and operated! </p>
+    <p>Reliable, Professional, Local</p>
   </header>
 
   <section>
@@ -100,21 +115,50 @@
       <li>Edging</li>
       <li>Weeding</li>
       <li>Leaf & Debris Blowing</li>
-      <li>Leaf & Debris removal</li>
     </ul>
-    <p>We offer one-time visits or recurring lawn maintenance in Medford, and surrounding areas.</p>
+    <p>We offer one-time visits or recurring lawn maintenance in Medford, Oregon and surrounding areas.</p>
   </section>
 
   <section>
     <h2>Pricing</h2>
     <table>
       <tr><th>Service</th><th>Typical Cost</th></tr>
-      <tr><td>Lawn Mow, Weed eat (¼ acre)</td><td>$50-$75</td></tr>
-      <tr><td>Lawn Mow, Weed eat (½ acre)</td><td>$75–$99</td></tr>
-      <tr><td>Full Maintenance Visit (Mow, Weed eat, Removal of debris)</td><td>$100-$130 per visit</td></tr>
-      <tr><td>Weekly/Bi-weekly discounts available!</tr>
-      <tr><td>Veteran, Senior, Police, EMS/First Responder discounts available!</td>
+      <tr><td>Lawn Mow (¼ acre)</td><td>$40–$55</td></tr>
+      <tr><td>Lawn Mow (½ acre)</td><td>$55–$70</td></tr>
+      <tr><td>Full Maintenance Visit (mow, edge, blow)</td><td>$48–$99 per visit</td></tr>
+      <tr><td>Weekly/Bi-weekly Recurring</td><td>$60–$150/month</td></tr>
     </table>
+    <p style="font-size: 0.9rem;">Based on market averages for Medford, Oregon.</p>
+  </section>
+
+  <section>
+    <h2>Book a Lawn Service</h2>
+    <p>Fill out the form below and we’ll get back to you within 24 hours.</p>
+    <form action="https://formspree.io/f/manjkkeb" method="POST">
+      <label for="name">Full Name*</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address*</label>
+      <input type="email" id="email" name="_replyto" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone">
+
+      <label for="service">Service Needed*</label>
+      <select id="service" name="service" required>
+        <option value="">-- Select --</option>
+        <option value="Lawn Mowing">Lawn Mowing</option>
+        <option value="Full Maintenance">Full Maintenance</option>
+        <option value="Weeding">Weeding</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="message">Additional Info</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <input type="hidden" name="_redirect" value="thank-you.html">
+      <button type="submit">Submit Request</button>
+    </form>
   </section>
 
   <section>
@@ -124,18 +168,14 @@
       <p><strong>Email:</strong> <a href="mailto:VanguardLawn@gmail.com">VanguardLawn@gmail.com</a></p>
       <p><strong>Service Area:</strong> Medford, Oregon & Surrounding Areas</p>
     </div>
-
     <div class="cta">
       <h3>New Customer Special</h3>
-      <p>4th of July Sale! Get 15% off Full Service visit for the first two weeks of July!</p>
+      <p>Save $15 off your first full maintenance visit — book before the end of the week!</p>
       <a href="mailto:VanguardLawn@gmail.com">Email Now to Save</a>
     </div>
-
     <p class="facebook-link">
       Follow us on Facebook:
-      <a href="https://www.facebook.com/profile.php?id=61562805812398" target="_blank">
-        Vanguard Lawn Care LLC
-      </a>
+      <a href="https://www.facebook.com/profile.php?id=61562805812398" target="_blank">Vanguard Lawn Care LLC</a>
     </p>
   </section>
 
