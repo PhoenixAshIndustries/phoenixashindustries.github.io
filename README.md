@@ -16,7 +16,7 @@
       background-image: url('https://images.unsplash.com/photo-1585241661302-7b3d8962c889?auto=format&fit=crop&w=1920&q=80');
       background-size: cover;
       background-position: center;
-      color: white;
+      color: #2e7d32;
       padding: 2.5rem 1rem;
       text-align: center;
     }
